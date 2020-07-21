@@ -1,9 +1,9 @@
 import React from "react";
-import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import $ from "jquery";
 import Popper from "popper.js";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import "./styles.css";
 
 export default function App() {
   return (
@@ -45,7 +45,6 @@ export default function App() {
         </tr>
       </tbody>
     </table>
-
     /*Cerrando la tabla para poner los datos*/
   );
 }
